@@ -1,0 +1,9 @@
+name: hellodemo
+static_sites:
+- name: web
+  source_dir: /
+  github:
+    repo: dineshmurthy/HelloDemo
+    branch: main
+  routes:
+  - path: /
